@@ -1,22 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Totally Semantic Title</title>
 
-		<meta name="author" content="Your Name Here">
-		<meta name="description" content="This is a basic index template; therefore, the content of this tag will need to be updated later.">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Assignment 3</title>
 
-		<!-- Google Fonts -->
+	<meta name="author" content="Oleksa Petriw">
+	<meta name="description" content="1530 Assignment 3">
 
-		<!-- Stylesheets -->
-		<link rel="stylesheet" type="text/css" href="css/modern-reset.css">
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
-	</head>
-	<body>
-		<div class="container">
-			<h1>Hello, world!</h1>
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+		rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="./css/modern-reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+
+	<!-- Scripts -->
+	<script src="./js/main.js" type="module"></script>
+</head>
+
+<body>
+	<header>
+		<div class="inner-container wide-flex">
+			<div class="flex-container">
+				<!-- First-Level Heading Here -->
+				<h1>Blog</h1>
+				<div class="menu-icon">
+					<!-- Menu Icon Here -->
+					<img src="./img/svg/menu.svg" alt="menu logo">
+				</div> <!-- end of .menu-icon -->
+			</div> <!-- end of .flex-container -->
+			<nav class="wide-flex">
+				<!-- invisible h2 for outliner -->
+				<h2>Navigation</h2>
+				<ul class="main-menu">
+					<!-- First tier -->
+					<li>
+						<a href="#" class="first-link">
+							About
+							<img src="./img/svg/chevron.svg" alt="down chevron icon">
+						</a>
+						<!-- Second tier -->
+						<ul class="second-tier">
+							<li>
+								<a href="#">Bio</a>
+							</li>
+							<li>
+								<a href="#">Services</a>
+							</li>
+							<li>
+								<a href="#">In the Media</a>
+							</li>
+						</ul>
+						<!-- End of Second tier -->
+					</li>
+					<!-- End of First tier -->
+					<!-- First tier -->
+					<li>
+						<a href="#" class="first-link">
+							Things to Do
+							<img src="./img/svg/chevron.svg" alt="down chevron icon">
+						</a>
+						<!-- Second tier -->
+						<ul class="second-tier">
+							<li>
+								<a href="#">Good Food</a>
+							</li>
+							<li>
+								<a href="#">Local Travel</a>
+							</li>
+							<li>
+								<a href="#">Arts & Culture</a>
+							</li>
+							<li>
+								<a href="#">Family</a>
+							</li>
+							<li>
+								<a href="#">Festivals</a>
+							</li>
+						</ul>
+						<!-- End of Second tier -->
+					</li>
+					<!-- End of First tier -->
+					<!-- First tier -->
+					<li>
+						<a href="#" class="first-link">
+							Contact
+							<img src="./img/svg/chevron.svg" alt="down chevron icon">
+						</a>
+						<!-- Second tier -->
+						<ul class="second-tier">
+							<li>
+								<a href="#">Video Blog</a>
+							</li>
+						</ul>
+						<!-- End of Second tier -->
+					</li>
+					<!-- End of First tier -->
+				</ul>
+			</nav>
+		</div> <!-- end of .inner-container -->
+	</header>
+	<main>
+		<section>
+			<div>
+				<h2>Good Food</h2>
+				<p>
+					I love to eat! Check out some dishes I've
+					tried and restaurants I recommend you
+					try.
+				</p>
+				<a href="#" class="button-dark">Discover</a>
+			</div>
+			<div>
+				<img src="./img/jpg/breakfast.jpg" alt="Breakfast spread">
+				<img src="./img/jpg/platter.jpg" alt="Food platter">
+			</div>
+		</section>
+		<section>
+			<div>
+				<h2>Local Travel</h2>
+				<a href="#" class="button-dark">Discover</a>
+			</div>
+			<div>
+				<img src="./img/jpg/water.jpg" alt="Mountain waterfall">
+			</div>
+		</section>
+		<section>
+			<div>
+				<img src="./img/svg/heart.svg" alt="heart icon">
+				<h2>Stuff</h2>
+			</div>
+		</section>
+		<section>
+			<div>
+				<div>
+					<img src="./img/jpg/tacos-al-pastor.jpg" alt="tacos al pastor">
+				</div>
+				<h3>Fresh Prep</h3>
+				<p>
+					Sign up today to enjoy the Fresh Prep
+					difference. Enjoy a more convenient and
+					quality meal kit service delivered to your door.
+				</p>
+				<p>
+					Use our discount code for 10% off your first
+					purchase.
+				</p>
+				<a href="#" class="link">VISIT FRESH PREP</a>
+			</div>
+			<div>
+				<div>
+					<img src="./img/jpg/farmers-market-colorful-carrots.jpg" alt="colorful carrots at a farmers market">
+				</div>
+				<h3>Farmers' Market</h3>
+				<p>
+					Edmontonians love farmers' markets and you
+					should too. You'll find everything from fresh
+					local produce to hand-made jewellery,
+					clothing, art and unique home goods. There is a
+					market for every part of the city, and we've got
+					you covered with this list of favourites.
+				</p>
+				<a href="#" class="link">CHECK OUT THE LIST</a>
+			</div>
+			<div>
+				<div>
+					<img src="./img/jpg/inside-the-brewery.jpg" alt="brewery tanks and casks">
+				</div>
+				<h3>Cabin Brewery</h3>
+				<p>
+					Our brewery has a bright and family-friendly
+					tasting room, a retail area and small patio,
+					open 6 days a week.
+				</p>
+				<p>
+					We are super proud of our beautiful brewery
+					and love to show it off. Book a tour to learn
+					more about where we came from and how we
+					make our delicious beer.
+				</p>
+				<a href="#" class="link">BOOK A TOUR</a>
+			</div>
+			<div>
+				<div>
+					<img src="./img/jpg/frothy-hot-chocolate-in-mug.jpg" alt="frothy hot chocolate in a mug">
+				</div>
+				<h3>Hot Chocolate Bombs</h3>
+				<p>
+					Hot Chocolate Bombs are chocolate spheres
+					filled with homemade chocolate milk powder
+					and marshmallows that are put into a mug
+					with hot milk for a delicious cup of hot cocoa.
+					Try my Best Homemade Hot Cocoa for another
+					rich and creamy hot chocolate recipe.
+				</p>
+				<a href="#" class="link">MAKE THIS RECIPE</a>
+			</div>
+		</section>
+		<section>
+			<div>
+				<h2>Video Blog</h2>
+				<p>
+					Follow me on my YouTube
+					channel to get news, discounts
+					and more.
+				</p>
+				<a href="#" class="button-light">Discover</a>
+			</div>
+			<div>
+				<img src="./img/jpg/camera.jpg" alt="Camera">
+			</div>
+		</section>
+	</main>
+	<footer>
+		<nav class="wide-flex">
+			<!-- invisible h2 for outliner -->
+			<h2>Footer</h2>
+			<ul class="footer-menu">
+				<!-- First tier -->
+				<li>
+					<a href="#" class="first-link">
+						About
+					</a>
+					<!-- Second tier -->
+					<ul class="second-tier">
+						<li>
+							<a href="#">Bio</a>
+						</li>
+						<li>
+							<a href="#">Services</a>
+						</li>
+						<li>
+							<a href="#">In the Media</a>
+						</li>
+					</ul>
+					<!-- End of Second tier -->
+				</li>
+				<!-- End of First tier -->
+				<!-- First tier -->
+				<li>
+					<a href="#" class="first-link">
+						Things to Do
+					</a>
+					<!-- Second tier -->
+					<ul class="second-tier">
+						<li>
+							<a href="#">Good Food</a>
+						</li>
+						<li>
+							<a href="#">Local Travel</a>
+						</li>
+						<li>
+							<a href="#">Arts & Culture</a>
+						</li>
+						<li>
+							<a href="#">Family</a>
+						</li>
+						<li>
+							<a href="#">Festivals</a>
+						</li>
+					</ul>
+					<!-- End of Second tier -->
+				</li>
+				<!-- End of First tier -->
+				<!-- First tier -->
+				<li>
+					<a href="#" class="first-link">
+						Contact
+					</a>
+					<!-- Second tier -->
+					<ul class="second-tier">
+						<li>
+							<a href="#">Video Blog</a>
+						</li>
+					</ul>
+					<!-- End of Second tier -->
+				</li>
+				<!-- End of First tier -->
+			</ul>
+		</nav>
+		<div>
+			<img src="./img/svg/facebook.svg" alt="Facebook icon">
+			<img src="./img/svg/instagram.svg" alt="Instagram icon">
+			<img src="./img/svg/youtube.svg" alt="YouTube icon">
+			<img src="./img/svg/linkedin.svg" alt="LinkedIn icon">
 		</div>
-	</body>
+	</footer>
+</body>
 </html>

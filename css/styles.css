@@ -1,0 +1,657 @@
+/* 
+SMALL - MENU OPEN 320px wide
+
+1 Hover states
+
+hover background
+width: 138px;
+height: 27px;
+border-radius: 5px;
+background-color: #707070;
+
+About/Things/Contact (top menu)
+width: 74px;
+height: 31px;
+font-size: 24px;
+color: #727812;
+font-weight: 711;
+font-family: "Cooper Hewitt";
+text-align: right;
+
+2 Header - Open Nav
+
+Blog (menu title?)
+width: 320px;
+height: 364px;
+font-size: 36px;
+color: #f2f2f2;
+font-weight: 713;
+font-family: "Cooper Hewitt";
+
+About/Things/Contact (top menu)
+width: 74px;
+height: 31px;
+font-size: 24px;
+color: #f2f2f2;
+font-weight: 711;
+font-family: "Cooper Hewitt";
+text-align: right;
+
+Services/InTheMedia/Bio (second tier menu)
+width: 84px;
+height: 25px;
+font-size: 18px;
+text-decoration: underline;
+color: #f2f2f2;
+font-weight: 400;
+font-family: "Merriweather Sans";
+text-align: right;
+
+bg black
+width: 320px;
+height: 572px;
+background-color: #3a3a3a;
+
+3 Good Food
+
+Platter (img)
+
+Breakfast (img)
+
+Discover btn (button)
+width: 91px;
+height: 28px;
+font-size: 16px;
+line-height: 24px;
+color: #f2f2f2;
+font-weight: bold;
+font-family: "Merriweather Sans Roman";
+text-align: center;
+
+btn bg (button)
+width: 184px;
+height: 47px;
+border-radius: 23px;
+background-color: #404040;
+
+i love to eat (paragraph)
+width: 300px;
+height: 84px;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+font-weight: 400;
+font-family: "Merriweather Sans";
+
+good food (title near top)
+width: 302px;
+height: 185px;
+font-size: 90px;
+line-height: 90px;
+color: #404040;
+font-weight: 713;
+font-family: "Cooper Hewitt";
+
+*/
+
+/* 
+SMALL - MENU CLOSED 320px wide
+
+1 btn hover state
+
+Discover
+width: 91px;
+height: 28px;
+font-size: 16px;
+line-height: 24px;
+color: #f2f2f2;
+font-weight: bold;
+font-family: "Merriweather Sans Roman";
+text-align: center;
+
+btn bg
+width: 184px;
+height: 47px;
+border-radius: 23px;
+background-color: #c55614;
+
+2 Header
+
+Blog (menu title?)
+width: 320px;
+height: 364px;
+font-size: 36px;
+color: #f2f2f2;
+font-weight: 713;
+font-family: "Cooper Hewitt";
+
+bg black
+width: 320px;
+height: 70px;
+background-color: #3a3a3a;
+
+3 Good Food
+
+Platter (img)
+
+Breakfast (img)
+
+Discover btn (button)
+width: 91px;
+height: 28px;
+font-size: 16px;
+line-height: 24px;
+color: #f2f2f2;
+font-weight: bold;
+font-family: "Merriweather Sans Roman";
+text-align: center;
+
+btn bg (button)
+width: 184px;
+height: 47px;
+border-radius: 23px;
+background-color: #404040;
+
+i love to eat (paragraph)
+width: 300px;
+height: 84px;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+font-weight: 400;
+font-family: "Merriweather Sans";
+
+good food (title near top)
+width: 302px;
+height: 185px;
+font-size: 90px;
+line-height: 90px;
+color: #404040;
+font-weight: 713;
+font-family: "Cooper Hewitt";
+
+4 local travel
+
+local travel
+width: 302px;
+height: 185px;
+font-size: 90px;
+line-height: 90px;
+color: #727812;
+font-weight: 713;
+font-family: "Cooper Hewitt";
+
+water (img)
+
+discover btn copy
+width: 91px;
+height: 28px;
+font-size: 16px;
+line-height: 24px;
+color: #f2f2f2;
+font-weight: bold;
+font-family: "Merriweather Sans Roman";
+text-align: center;
+
+btn bg
+width: 184px;
+height: 47px;
+border-radius: 23px;
+background-color: #404040;
+
+bg grey
+width: 322px;
+height: 674px;
+background-color: #f2f2f2;
+
+5 stuff
+
+heart icon (img)
+
+stuff
+width: 300px;
+height: 94px;
+font-size: 90px;
+line-height: 90px;
+color: #404040;
+font-weight: 713;
+font-family: "Cooper Hewitt";
+text-align: center;
+
+card 1
+tacos al pastor (img)
+
+fresh prep (title)
+width: 266px;
+height: 63px;
+font-size: 42px;
+line-height: 90px;
+color: #b29124;
+font-weight: 713;
+font-family: "Cooper Hewitt";
+
+sign up today (p)
+width: 268px;
+height: 168px;
+font-size: 16px;
+line-height: 24px;
+color: #404040;
+font-weight: 400;
+font-family: "Merriweather Sans";
+
+visit fresh prep (link)
+width: 151px;
+height: 27px;
+font-size: 16px;
+line-height: 24px;
+text-decoration: underline;
+text-transform: uppercase;
+color: #404040;
+font-weight: 400;
+font-family: "Merriweather Sans";
+
+bg grey
+width: 300px;
+height: 473px;
+background-color: #f2f2f2;
+
+card 2/3/4 follow same pattern I think
+
+6 video blog
+
+follow me (p)
+width: 279px;
+height: 51px;
+font-size: 16px;
+line-height: 24px;
+color: #f2f2f2;
+font-weight: 400;
+font-family: "Merriweather Sans";
+
+video blog (title)
+width: 279px;
+height: 208px;
+font-size: 90px;
+line-height: 90px;
+color: #f2f2f2;
+font-weight: 713;
+font-family: "Cooper Hewitt";
+
+discover btn copy
+width: 91px;
+height: 28px;
+font-size: 16px;
+line-height: 24px;
+color: #707070;
+font-weight: bold;
+font-family: "Merriweather Sans Roman";
+text-align: center;
+
+btn bg
+width: 184px;
+height: 47px;
+border-radius: 23px;
+background-color: #f2f2f2;
+
+camera (img)
+
+bg black
+width: 301px;
+height: 434px;
+background-color: #404040;
+
+7 footer
+
+things to do/about/contact (top list)
+width: 136px;
+height: 26px;
+font-size: 18px;
+line-height: 24px;
+color: #f2f2f2;
+font-weight: bold;
+font-family: "Merriweather Sans Roman";
+
+good food/local travel/arts (second tier list)
+width: 123px;
+height: 24px;
+font-size: 16px;
+color: #cbc9c9;
+font-weight: 400;
+font-family: "Merriweather Sans";
+
+Social media
+
+facebook etc
+background-color: #cbc9c9;
+(hover state color overlay
+--> alternates grey/black)
+
+bg black
+width: 323px;
+height: 300px;
+background-color: #3a3a3a;
+
+*/
+
+/* 
+Med - MENU dropdowns 840px wide
+
+1 Header
+
+Blog
+width: 136px;
+height: 38px;
+font-size: 36px;
+color: #f2f2f2;
+font-weight: 713;
+font-family: "Cooper Hewitt";
+
+About/Things/Contact (top tier menu)
+font-size: 24px;
+color: #f2f2f2;
+font-weight: 711;
+font-family: "Cooper Hewitt";
+text-align: right;
+
+arrow (svg?)
+
+bio/services/in the media (tier 2 menu)
+width: 135px;
+height: 25px;
+font-size: 18px;
+text-decoration: underline;
+color: #f2f2f2;
+font-weight: 400;
+font-family: "Merriweather Sans";
+text-align: center;
+
+bg-dropdowns
+width: 135px;
+height: 138px;
+background-color: #3a3a3a;
+
+bg black
+width: 841px;
+height: 69px;
+background-color: #3a3a3a;
+
+*/
+
+/* 
+Medium 840px wide
+
+1 Header
+
+Blog
+width: 136px;
+height: 38px;
+font-size: 36px;
+color: #f2f2f2;
+font-weight: 713;
+font-family: "Cooper Hewitt";
+
+(other stuff same as above, but collapsed menu)
+
+2 Good Food
+
+platter (img)
+
+breakfast (img)
+
+discover btn
+width: 91px;
+height: 28px;
+font-size: 16px;
+line-height: 24px;
+color: #f2f2f2;
+font-weight: bold;
+font-family: "Merriweather Sans Roman";
+text-align: center;
+
+btn bg
+width: 184px;
+height: 47px;
+border-radius: 23px;
+background-color: #404040;
+
+i love to eat (p)
+width: 184px;
+height: 47px;
+border-radius: 23px;
+background-color: #404040;
+
+good food (title)
+width: 275px;
+height: 180px;
+font-size: 90px;
+line-height: 90px;
+color: #404040;
+font-weight: 713;
+font-family: "Cooper Hewitt";
+
+3 Local Travel
+
+local travel
+width: 298px;
+height: 179px;
+font-size: 90px;
+line-height: 90px;
+color: #727812;
+font-weight: 713;
+font-family: "Cooper Hewitt";
+
+water (img)
+
+discover btn copy
+width: 91px;
+height: 28px;
+font-size: 16px;
+line-height: 24px;
+color: #f2f2f2;
+font-weight: bold;
+font-family: "Merriweather Sans Roman";
+text-align: center;
+
+btn bg
+width: 184px;
+height: 47px;
+border-radius: 23px;
+background-color: #404040;
+
+bg grey
+width: 840px;
+height: 345px;
+background-color: #f2f2f2;
+
+4 Stuff
+
+heart (icon)
+
+stuff
+width: 388px;
+height: 135px;
+font-size: 90px;
+line-height: 135px;
+color: #404040;
+font-weight: 713;
+font-family: "Cooper Hewitt";
+text-align: center;
+
+card 1 (same for others. They're in a 2x2 grid?)
+
+tacos al pastor (img)
+
+fresh prep (title)
+width: 357px;
+height: 63px;
+font-size: 42px;
+line-height: 90px;
+color: #b29124;
+font-weight: 713;
+font-family: "Cooper Hewitt";
+
+sign up today (p)
+width: 356px;
+height: 150px;
+font-size: 16px;
+line-height: 24px;
+color: #404040;
+font-weight: 400;
+font-family: "Merriweather Sans";
+
+visit presh prep (link)
+width: 147px;
+height: 27px;
+font-size: 16px;
+line-height: 24px;
+text-decoration: underline;
+text-transform: uppercase;
+color: #404040;
+font-weight: 400;
+font-family: "Merriweather Sans";
+
+bg grey
+width: 388px;
+height: 608px;
+background-color: #f2f2f2;
+
+5 Video Blog
+
+follow me on my (p)
+width: 250px;
+height: 71px;
+font-size: 16px;
+line-height: 24px;
+color: #f2f2f2;
+font-weight: 400;
+font-family: "Merriweather Sans";
+
+video blog (title)
+width: 309px;
+height: 180px;
+font-size: 90px;
+line-height: 90px;
+color: #f2f2f2;
+font-weight: 713;
+font-family: "Cooper Hewitt";
+
+discover btn copy 
+width: 91px;
+height: 28px;
+font-size: 16px;
+line-height: 24px;
+color: #707070;
+font-weight: bold;
+font-family: "Merriweather Sans Roman";
+text-align: center;
+
+btn bg
+width: 184px;
+height: 47px;
+border-radius: 23px;
+background-color: #f2f2f2;
+
+camera (img)
+
+bg black
+width: 607px;
+height: 436px;
+background-color: #404040;
+
+6 Footer
+(same as before, like flex row first level and flex column second?)
+but 4 x 1 rather than 2 x 2.
+
+*/
+
+/* 
+Large 1356 px wide? I wonder what the breakpoint is. 1280 maybe
+
+1 Header
+looks same, full width
+
+2 Good food
+looks like "Good" and the lower image became bigger
+they're centered, with exterior margins growing
+
+3 local travel
+looks like "Local" grew bigger and moved to left margin
+also left margin became smaller
+also image grew and moved upwards
+right margin grew
+
+4 stuff
+looks like "Stuff" grew bigger, but not heart icon
+
+cards look same-ish but smaller because now 4x1
+instead of 2x2
+
+grey background overlay looks bad and uneven for some reason
+but titles are all lined up with each other as are images
+
+5 video blog
+looks like left margin of dark grey bg grew
+looks like "Video" grew
+looks like camera img grew a little
+
+6 footer
+no change. Same size and orientation.
+right margin grew
+
+*/
+
+/* 
+COLOR PALETTE
+white text ("Blog"): #f2f2f2
+dark grey bg ("Blog"): #3a3a3a
+green hover state ("About"): #727812
+Green text ("Local"): #727812
+grey bubble hover state ("Bio"): #707070
+grey text ("Food", "Travel", "Discover" text on white bg): #707070
+white bg ("Good"): #ffffff
+dark grey text ("Good", "Stuff", p and link card text): #404040
+dark grey bg ("btn Discover", "Video blog"): #404040
+white text ("Discover", footer): #f2f2f2
+white grey bg (btn "Discover"): #f2f2f2
+Light grey bg (cards): #f2f2f2
+orange heart: #c65614
+yellow card titles: #b29124
+dark grey bg (footer): #3a3a3a
+greyish small footer text ("Good food" etc, icons): #cbc9c9
+*/
+
+/* 
+images dimensions
+
+SMALL
+breakfast: 261*174
+platter: 214*143
+water: 215*322
+taco/carrot/brew/cup: 270*400
+camera: 300*200
+
+MEDIUM
+breakfast: 389*258
+platter: 374*249
+water: 279*418
+taco/carrot/brew/cup: 357*536
+camera: 355*236
+
+LARGE
+breakfast: 388*258
+platter: 485*323
+water: 422*632
+taco/carrot/brew/cup: 267*402
+camera: 407*271
+
+*/
+
+/* Self-hosted font */
+@font-face {
+    font-family: "CooperHewitt-Heavy";
+    src:
+      url("../fonts/CooperHewitt-Heavy.otf") format("otf"),
+      url("../fonts/CooperHewitt-Heavy.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
