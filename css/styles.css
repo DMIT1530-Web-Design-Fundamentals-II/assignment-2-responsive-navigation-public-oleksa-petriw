@@ -651,7 +651,7 @@ camera: 407*271
     font-family: "Cooper Hewitt";
     src:
       url("../fonts/CooperHewitt-Heavy.otf") format("otf"),
-      url("../fonts/CooperHewitt-Heavy.ttf") format("ttf");
+      url("../fonts/CooperHewitt-Heavy.ttf") format("truetype");
     font-weight: normal;
   }
 
@@ -718,9 +718,9 @@ h2 {
 .button {
   font-weight: 700;
   display: inline-block;
-  padding: 0.75rem 2.5rem;
+  padding: 0.5rem 3rem;
   border-radius: 2rem;
-  margin: 1rem 0;
+  margin: 1rem;
 }
 
 .btn-dark {
@@ -807,6 +807,11 @@ header nav li li a:hover {
   color: var(--off-white);
 }
 
+.button:hover {
+  background-color: var(--orange);
+  color: var(--off-white);
+}
+
 .first-link:hover {
   color:var(--green)
 }
@@ -819,3 +824,297 @@ header nav ul li {
   text-align: right;
 }
 
+footer {
+  background-color: var(--near-black);
+  font-size: 1rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer div {
+  width: 100%;
+}
+
+footer ul, 
+footer li {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-menu > li {
+  flex: 1 1 45%;
+  margin: 0 2.5%;
+}
+
+footer a {
+  color: var(--off-white);
+  font-weight: bold;
+}
+
+footer .second-tier li > a {
+  color: var(--light-grey);
+  font-weight: normal;
+}
+
+footer h2 {
+  display: none;
+}
+
+footer svg {
+  max-width: 2rem;
+  fill: var(--light-grey)
+}
+
+footer svg:hover {
+  fill: unset;
+}
+
+footer ul {
+  list-style-type: none;
+  padding-bottom: 2rem;
+}
+
+.good-food h2 {
+  font-size: 4rem;
+  line-height: 2rem;
+  width: 12rem;
+  display: inline-block;
+  padding-top: 3rem;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+}
+
+.good-food .good-heading{
+  color: var(--near-black);
+  text-align: left;
+  display: block;
+}
+
+.good-food .light-heading{
+  color: var(--grey);
+  text-align: right;
+  display: block;
+}
+
+.good-food p {
+  padding: 1rem;
+}
+
+/*
+.photo-container {
+    height: calc(15rem + 35vw);
+    max-height: 30rem;
+    position: relative;
+}
+
+.photo-container img {
+    position: absolute;
+}
+
+.photo-container img:first-of-type {
+    top: 5.75rem;
+}
+
+.photo-container img:last-of-type {
+    left: 2rem;
+    height: 85%;
+    top: 7.5%;
+}
+*/
+
+.good-food-images {
+  height: calc(15rem + 35vw);
+  max-height: 30rem;
+  position: relative;
+}
+
+.good-food-images img {
+  position: absolute;
+}
+
+
+.good-food-images img:first-of-type {
+  left: 20vw;
+  width: 60vw;
+  max-width: 25rem;
+}
+
+.good-food-images img:last-of-type {
+  left: 2vw;
+  top: 10rem;
+  width: 60vw;
+  max-width: 25rem;
+}
+
+.local-travel {
+  background-color: var(--off-white);
+}
+
+.local-travel h2 {
+  font-size: 4rem;
+  line-height: 2rem;
+  width: 16rem;
+  display: inline-block;
+  padding-top: 3rem;
+  padding-left: 1rem;
+}
+
+.local-travel .local-heading{
+  color: var(--green);
+  text-align: left;
+  display: block;
+}
+
+.local-travel .light-heading{
+  color: var(--grey);
+  text-align: right;
+  display: block;
+}
+
+.local-travel .button {
+  margin-top: 0;
+  margin-left: 60vw;
+}
+
+.local-travel img {
+  margin-left: 20vw;
+  max-width: 70%;
+  padding-bottom: 2rem;
+}
+
+.stuff div {
+  height: 10rem;
+  position:relative;
+}
+
+.stuff svg {
+  position:absolute;
+  fill:#c65614;
+  bottom: 6rem;
+  left: 2rem;
+  width: 2rem;
+  z-index: 1;
+}
+
+.stuff h2 {
+  position:absolute;
+  bottom: 2rem;
+  left: 2rem;
+  font-size: 4rem;
+}
+
+
+/*
+<section class="card-section">
+			<div class="card">
+				<div>
+					<img src="./img/jpg/tacos-al-pastor.jpg" alt="tacos al pastor">
+				</div>
+				<h3>Fresh Prep</h3>
+				<p>
+					Sign up today to enjoy the Fresh Prep
+					difference. Enjoy a more convenient and
+					quality meal kit service delivered to your door.
+				</p>
+				<p>
+					Use our discount code for 10% off your first
+					purchase.
+				</p>
+				<a href="#" class="link">VISIT FRESH PREP</a>
+			</div>
+<section>
+
+*/
+
+@media screen and (min-width: 52.5rem) {
+  .wide-flex {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  header div.inner-container {
+    max-width: 60rem;
+  }
+
+  header div.inner-container > .flex-container {
+    flex: 1 0 auto;
+  }
+
+  .toggle-btn {
+    display: none;
+  }
+
+  .first-link svg {
+    display: unset;
+  }
+
+  header nav {
+    justify-content: flex-end;
+    position: static;
+    overflow: visible;
+    white-space: nowrap;
+  }
+
+  nav ul li {
+    list-style-type: none;
+  }
+
+  .main-menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+  }
+
+  .main-menu li {
+    position: relative;
+  }
+
+  .main-menu > li {
+    margin: 1rem;
+  }
+
+  header .second-tier {
+    min-width: 100%;
+    background-color: var(--near-black);
+    position: absolute;
+    visibility: hidden;
+    text-align: left;
+  }
+
+  .main-menu li:hover > .second-tier{
+    visibility: visible;
+  }
+
+  header ul, 
+  header li {
+    padding: 0;
+  }
+  
+  header .second-tier li {
+    padding: 0.5rem;
+  }
+
+  header .second-tier > li {
+    text-align: center;
+  }
+
+  .footer-menu {
+    width: 75vw;
+  }
+
+  .footer-menu > li {
+    flex: 1 1 20%;
+    margin: 0 2.5%;
+  }
+}
+
+@media screen and (min-width: 85rem) {
+
+}
