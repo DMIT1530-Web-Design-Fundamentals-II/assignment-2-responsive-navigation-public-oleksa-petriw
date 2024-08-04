@@ -113,7 +113,7 @@ header p {
   stroke: var(--off-white)
 }
 
-.first-link {
+header .first-link {
   font-size: 1.2rem;
   display: flex;
   align-items: center;
@@ -235,6 +235,16 @@ footer svg:hover {
 footer ul {
   list-style-type: none;
   padding-bottom: 2rem;
+}
+
+footer li li a:hover {
+  background-color: var(--grey);
+  border-radius: 0.5rem;
+  color: var(--off-white);
+}
+
+.first-link:hover {
+  color: var(--green)
 }
 
 /* Good Food */
